@@ -1,0 +1,318 @@
+<resources>
+
+    -- Used in Main Activity --
+
+    <string name="app_name">CNAF Flight Surgeon</string>
+    <string name="command">Naval Air Forces Flight Surgeon</string>
+    <string name="disclaimer">By selecting \"Start\" and continuing the use of this
+    application you are acknowledging that you understand the requirements
+    of the <a href="https://www.justice.gov/opcl/privacy-act-1974">Privacy Act of 1974</a>
+    and take full responsilbility for compliance with the requirements therein. This app is
+    not endorsed by the US Navy. Copyright © 2018 Luke Griswold.</string>
+
+    -- Used in Home Activity--
+
+    <string name="tier1Title">Physiolgical Event (PE) Definitions</string>
+    <string name="restart">Restart</string>
+    <string name="CPG">View CPG</string>
+    <string name="PEdef">A Physiological Event is a subset of PHYSEPs where the following
+    two criteria are met:\n1. Aircrew or maintainer experiences physiologic symptoms\n2. Due to a known or
+    suspected aircraft or aircrew systems malfunction.</string>
+    <string name="Symptoms">Symptomology</string>
+    <string name="Begin">Begin PE Protocol</string>
+    <string name="Initial">Initial Actions</string>
+    <string name="InitialAction">-If possible, meet the aircrew at the
+    flight line.\n- Before beginning tests/exam, have the
+    <a href="http://www.public.navy.mil/NAVSAFECEN/Pages/aviation/aeromedical/Aeromedical.aspx">Part C</a>
+        form ready as well as the ability to administer a full neurological exam (see action bar
+        or <a href="https://www.navsea.navy.mil/Portals/103/Documents/SUPSALV/Diving/US%20DIVING%20MANUAL_REV7.pdf?ver=2017-01-11-102354-393">Appendix 5A</a>)
+    \n\n- Labs: CBC, UA, BMP, SRS (Serum Respository Sample is a VOLUNTARY DRAW.
+     Order as an HIV sample for future analysis of contaminants).
+    \n\n- Rad-57 analysis while on RA.
+    \n\n- Comprehensive physical exam (including full neuro evaluation).
+    \n\n- 72 hour history.</string>
+    <string name="RadResults">Does Rad-57 Show:</string>
+    <string name="RadDecision">1.  SpO&#8322; &gt; 95% on RA?
+    \n\n2.  SpCO &lt; 10%? </string>
+    <string name="GoodRad">Yes to both</string>
+    <string name="BadRad">No to either</string>
+
+    <string name="symptomsTitle">PE Symptomology</string>
+    <string name="symptomsBody">Physiologic symptoms refer to any of the following:
+    \n\ni) One or more somatic disturbances occurring during flight, after flight, or
+    experienced relative to maintenance requiring the operation of the aircraft.
+    \n\nii) The symptoms are distracting to the safe operation of the aircraft or degrade
+    the mission capability of the air or maintenance crew.
+    \n\niii) Manifestations of any of the following symptoms:
+    \n- Anxiousness / nervousness
+    \n- Changes in thought process**
+    \n- Clumsiness
+    \n- Difficulty breathing
+    \n- Difficulty communicating**
+    \n- Disorientation
+    \n- Dizziness
+    \n- Fatigue or drowsiness
+    \n- Feeling slowed or "off"
+    \n- Feeling euphoric or elated
+    \n- Headache
+    \n- Light headedness
+    \n- Memory difficulties**
+    \n- Nausea
+    \n- Pain anywhere, especially in joints
+    \n- Personality changes**
+    \n- Skin rashes
+    \n- Vertigo
+    \n- Vision changes or complaints
+    \n- Symptoms that suggest DCS I / II or AGE (DCI)
+    \n\n**May be self-reported or endorsed by a significant other or peer who knows the aviator
+    well enough to report subtle changes in personality or thought process</string>
+
+    -- CPG Branch data--
+    <string name="CPGTitle">CPG</string>
+    <string name="HomeTitle">Home</string>
+    <string name="Legal">Legal</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Neuro">Neuro</string>
+    <string name="CPGDescrip">Clinical Practice Guideline</string>
+    <string name="neuroDescrip">Neuro Exam</string>
+
+
+    -- Chamber Info --
+    <string name="chamberInfoTitle">Chamber Resources</string>
+    <string name="chamberInfoBody">Known or suspected DCS II / AGE MUST be
+    reviewed with the NAMI UMO PRIOR to discharge!</string>
+    <string name="callNAMI">Call NAMI UMO</string>
+    <string name="getInfo">View Chambers</string>
+    <string-array name="regions">
+        <item>Northeast</item>
+        <item>Mid Atlantic</item>
+        <item>Southeast</item>
+        <item>Midwest</item>
+        <item>Northwest</item>
+        <item>Southwest</item>
+        <item>Pacific</item>
+    </string-array>
+    <string name="promptChamber">Select a Region to view chambers</string>
+    <string name="Northeast">Chambers in CT, MA, NY, PA, and RI</string>
+    <string name="lant">Chambers in NC, VA, and WV</string>
+    <string name="Southeast">Chambers in Cuba, AL, FL, GA, and LA</string>
+    <string name="Midwest">Chambers in AR, KS, MO, OH, SD, and WI</string>
+    <string name="Southwest">Chambers in AZ, CA, CO, NV, TX, and UT</string>
+    <string name="Northwest">Chambers in ID, OR, and WA</string>
+    <string name="Pacific">Chambers in Guam and HI</string>
+    <string name="ChamberInfo">Chambers</string>
+
+    -- Used in the footer for the chamber views (Tree activity) --
+    <string name="NAMIFooter">NAMI UMO:\n(850) 449-4629
+    \n\nDiver\'s Alert Network (DAN):\n(910) 684-2948
+    \n\nEmergency DAN:\n(919) 684-9111
+    \n\nInternational SOS (ISOS):\n(215) 942-8226
+    \n</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_command_required">All fields are required</string>
+    <string name="login">Log In to Unlock</string>
+    <string name="access">To request access, email CNAFCOguide@gmail.com</string>
+    <string name="activity">Activity</string>
+    <string-array name="commands">
+        <item>CNAP</item>
+        <item>CNAL</item>
+        <item>CNAFR</item>
+        <item>CNATRA</item>
+        <item>NAVAIR</item>
+        <item>NAMI</item>
+    </string-array>
+    <string-array name="pwInput">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+        <item> </item>
+        <item>x</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+    <string-array name="pwOutput">
+        <item>!</item>
+        <item>Q</item>
+        <item>A</item>
+        <item>Z</item>
+        <item>2</item>
+        <item>w</item>
+        <item>s</item>
+        <item>x</item>
+        <item>#</item>
+        <item>E</item>
+        <item>D</item>
+        <item>C</item>
+        <item>4</item>
+        <item>r</item>
+        <item>f</item>
+        <item>v</item>
+        <item>%</item>
+        <item>T</item>
+        <item>G</item>
+        <item>B</item>
+        <item>6</item>
+        <item>y</item>
+        <item>h</item>
+        <item>n</item>
+        <item>&amp;</item>
+        <item>U</item>
+        <item>J</item>
+        <item>M</item>
+        <item>8</item>
+        <item>k</item>
+        <item>9</item>
+        <item>o</item>
+        <item>q</item>
+        <item>a</item>
+        <item>z</item>
+        <item>\@</item>
+        <item>1qazxsw3</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+        <item>1357wryi</item>
+    </string-array>
+
+    <string name="mil.navy.med.login_key">LOGIN_KEY</string>
+    <string name="mil.navy.med.file_key">FILE_KEY</string>
+
+    --- Legal and Feedback Strings ---
+    <string name="LegalBody">By using this application, you are ackknowledging
+    that you understand the requirements of the Privacy Act of 1974 and take full
+    responsibility for compliance with the requirements therein.  Response to a tragedy
+    inherently requires Privacy Act sensitive information.  Inadequate password protection
+    on your mobile device or your electronic communication accounts directly places any
+    Privacy Act information associated with this application at risk.
+    \n\nThis application is intended to provide suggestions/guidance for tragedy preparation
+    and response, but cannot guarantee the best solution for the situation you are responding
+    to.  Due to the dynamic nature of both Naval Aviation and human interaction, no two
+    tragedy responses will be identical.  Your continued use of this application explicitly
+    implies that you will determine what elements of this plan apply to your situation and
+    agree to hold both the development team and all agents of the US government harmless.</string>
+    <string name="Privacy"><a href="https://www.justice.gov/opcl/privacy-act-1974">Privacy
+    Act of 1974</a></string>
+
+    <string name="FeedbackBody">Feedback is essential to improving the quality of the flight
+    surgeon response products.  Please provide the following information when emailing
+    feedback (this will auto-populate if you use the "Email feedback" button).
+    \n\n1.  Use subject line "CNAF Flight Surgeon app feedback"
+    \n\n2.  Name(optional), command, and if you are interested in a response.
+    \n\n3.  Module (Mishap Response, PHYSEP, and platform) and screen any issue is found
+    in.  A screenshot of any issue you may be reporting is helpful.
+    \n\n4.  Feedback
+    \n\nThank you for taking the time to provide feedback!</string>
+    <string name="address">Feedback email address: CNAFCOGuide@gmail.com</string>
+    <string name="FeedbackButton">Email feedback</string>
+    <string name="emailaddy">CNAFCOGuide@gmail.com</string>
+    <string name="emailsubj">CNAF Flight Surgeon app feedback, version 1.0.0 android</string>
+    <string name="emailbody">App development team,
+    \n\nName: (Optional)
+    \nCommand:
+    \nResponse desired?
+    \nModule: Mishap response / PHYSEP
+    \nScreen:
+    \nIssue:
+    \nRecommendations:
+    \nGeneral comments:
+    \n\nContact information: (Optional)</string>
+
+    <string name="Conclusion">Conclusion</string>
+    <string name="ConclusionBody">Complete the following to conclude the PE:
+    \n\n1.  Flight surgeon must communicate working diagnosis and plan to the aircrew,
+    their command, and medical chain of command (up to TYCOM level).
+    \n\n2.  Complete Part C and AHLTA PE template.
+    \n\n3.  Aircrew being discharged should have someone (roommate or family) watching
+    them until followup is complete to ensure no recurrence of symptoms or other subtle changes.
+    \n\n4.  Aircrew will followup with the Flight Surgeon at 24 and 48hrs after episode or
+    discharge.  Update Part C if additional treatment is required.
+    \n\n5.  Complete WESS entry as directed by Safety Officer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

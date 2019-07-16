@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuCPG"
+        android:title="@string/CPGTitle"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menuLegal"
+        android:title="@string/Legal"/>
+    <item android:id="@+id/menuFeedback"
+        android:title="@string/Feedback"/>
+    <item android:id="@+id/menuNeuro"
+        android:title="@string/Neuro"
+        app:showAsAction="ifRoom"/>
+
+</menu>
